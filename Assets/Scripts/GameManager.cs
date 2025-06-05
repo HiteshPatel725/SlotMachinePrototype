@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
             ReelsList[i].ResetReel();
             ReelsList[i].SpinReel();
         }
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(5f);
         FindVisibleSymbols();
         CheckMatchingHighlight();
         SpinButton.interactable = true;
